@@ -29,12 +29,9 @@ def pla(w, inputs):
 
   while success == False:
     # print ("round", loop)  
-    result = []
-    index = 0
+    result = []    
         
-    for row in inputs:  
-      index = index + 1     
-      
+    for row in inputs:           
       x = row[:(row.size-1)]
       y = row[(row.size-1)]
 
